@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+        Portfolio Gallery
+</title>
+<meta name="viewport"
+          content="width=device-width, initial-scale=1">
+<style>
+        /* wildcard styling */
+        * {
+            box-sizing: border-box;
+        }
+        /* padding for whole body */
+        body {
+            padding: 15px;
+        }
+        /* styling body */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        h1 {
+            color: green;
+        }
+        /* anchor tag decoration */
+        a {
+            text-decoration: none;
+            color: #5673C8;
+        }
+        a:hover {
+            color: lightblue;
+        }
+        /* paragraph tag decoration */
+        p {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            overflow: hidden;
+        }
+        /* row and column decoration */
+        .row {
+            margin: 0px -18px;
+            padding: 8px;
+        }
+        .row>.column {
+            padding: 6px;
+        }
+        .column {
+            float: left;
+            width: 25%;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* content decoration */
+        .content {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid gray;
+        }
+        /* window size 850 width set */
+        @media screen and (max-width: 850px) {
+            .column {
+                width: 50%;
+            }
+        }
+        /* window size 400 width set */
+        @media screen and (max-width: 400px) {
+            .column {
+                width: 100%;
+            }
+        }
+</style>
+</head>
+<body>
+<!-- title and tag -->
+<div class="container">
+<h1>Welcome to the Portfolio Portal</HTML>!!</h1>
+<h3>This is a Html, CSS and JavaScript Learning Portal</h3>
+<hr>
+<!-- Content of the body-->
+<h2>Portfolio</h2>
+<div class="row">
+<div class="column">
+<div class="content">
+<img src=
+"https://media.istockphoto.com/id/487177014/photo/apple-on-books-with-pencils-and-empty-blackboard.jpg?s=1024x1024&w=is&k=20&c=zFsnGl1NhIL1OzyEHvJeJFdm8OokBFLQbOLNUm-pvVw="
+                         alt="" style="width:100%">
+<h3>
+<a href="#">HTML Tutorials</a>
+</h3>
+<p>
+                        HTML stands for Hyper Text Markup
+                        Language. It is used to design web
+                        pages using markup language.
+</p>
+</div>
+</div>
+<div class="column">
+<div class="content">
+<img src=
+"https://media.istockphoto.com/id/487177014/photo/apple-on-books-with-pencils-and-empty-blackboard.jpg?s=1024x1024&w=is&k=20&c=zFsnGl1NhIL1OzyEHvJeJFdm8OokBFLQbOLNUm-pvVw="
+                         alt="" style="width:100%">
+<h3>
+<a href="#">CSS Tutorials</a>
+</h3>
+<p>
+                        Cascading Style Sheets, fondly referred
+                        to as CSS, is a simply designed language
+                        intended to simplify the process of
+                        making web pages presentable. CSS allows
+                        you to apply styles to web pages.
+</p>
+</div>
+</div>
+ 
+
+<div class="column">
+<div class="content">
+<img src=
+"https://media.istockphoto.com/id/487177014/photo/apple-on-books-with-pencils-and-empty-blackboard.jpg?s=1024x1024&w=is&k=20&c=zFsnGl1NhIL1OzyEHvJeJFdm8OokBFLQbOLNUm-pvVw="
+                         alt="" style="width:100%">
+<h3>
+<a href="#">JavaScript Tutorials</a>
+</h3>
+<p>
+                        Javascript was developed by Brendan
+                        Eich in 1995. At first, it was called
+                        LiveScript but was later name to
+                        JavaScript. JavaScript is the muscle
+                        of the structure
+</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
